@@ -14,7 +14,6 @@ const button_agregar = document.getElementById('agregar_alumno')
 
 const nombre_alumno = document.getElementById('nombre')
 const apellido_alumno = document.getElementById('apellido')
-const dni_alumno = document.getElementById('dni')
 const usuario_alumno = document.getElementById('usuario')
 const contrasenia_alumno = document.getElementById('contrasenia')
 
@@ -27,7 +26,6 @@ button_agregar.addEventListener('click', () => {
     const alumno = {
         nombre: nombre_alumno.value,
         apellido: apellido_alumno.value,
-        dni: parseInt(dni_alumno.value),
         usuario: usuario_alumno.value,
         contrasenia: contrasenia_alumno.value
     }
