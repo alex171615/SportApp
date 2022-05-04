@@ -32,6 +32,6 @@
 body {
     margin: 0;
     padding: 0;
-    background: url(../SportApp/imag/Logo\ Sport\ App\ -\ copias.PNG) no-repeat center top;
+    background: url('/imag/background.png') no-repeat center top;
     background-size: cover;
 }
