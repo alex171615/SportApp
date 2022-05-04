@@ -1,43 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Login Form Design One | Fazt</title>
     <link rel="stylesheet" href="estilo.css">
-    <title>SportApp</title>
-</head>
+  </head>
+  <body>
 
-<body>
-    <!-- Encabezados, un comentario -->
-    <h1>
-    <div class="login.box">
-      
+    <div class="login-box">
+      <img src="imag/Minilogo.PNG" class="avatar" alt="Avatar Image">
+      <h1>Iniciar Sesion</h1>
+      <form>
+        <!-- USERNAME INPUT -->
+        <label for="Usuario">Usuario</label>
+        <input type="text" placeholder="Ingrese Usuario">
+        <!-- PASSWORD INPUT -->
+        <label for="Contraseña">Contraseña</label>
+        <input type="password" placeholder="Ingrese Contraseña">
+        <input type="submit" value="Iniciar Sesion">
+        <a href="#">¿olvidaste tu contraseña?</a><br>
+        <a href="#">¿no tienes cuenta?</a>
+      </form>
     </div>
-    
-
-    <!-- label es una etiqueta de descripcion -->
-    <label for="nombre_usuario">Nombre</label>
-    <!-- input es para el ingreso de datos -->
-    <input type="text" id="nombre" name="nombre_usuario">
-    <!-- br salto de linea -->
-    <br>
-    <label for="apellido_alumno">Apellido</label>
-    <input type="text" id="apellido" name="apellido_usuario">
-    <br>
-    <label for="usuario_alumno">Usuario</label>
-    <input type="text" id="usuario" name="usuario_usuario">
-    <br>
-    <label for="contrasenia_alumno">Contraseña</label>
-    <input type="password" id="contrasenia" name="contrasenia_usuario">
-    <!-- hr realiza una linea divisoria horizontalmente -->
-    
-    <button id="agregar_alumno">Agregar</button>
-
-    <a href="index.html">Volver al inicio</a>
-    <!-- importar el archivo javascript (js) al documento html -->
-    <script type="text/javascript" src="index.js"></script>
-</body>
-
+  </body>
 </html>
