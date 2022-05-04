@@ -3,24 +3,33 @@
   <head>
     <meta charset="utf-8">
     <title>Login Form Design One | Fazt</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/bulma.min.css">
   </head>
   <body>
+    <div class="container">
+        <div class="columns">
+            <div class="column is-one-third-mobile"></div>
+            <div class="column is-one-third-mobile has-text-centered-desktop">
+                <div class="login-box">
+                    <img src="imag/Minilogo.PNG" class="avatar" alt="Avatar Image">
+                    <div class="box mt-6">
 
-    <div class="login-box">
-      <img src="imag/Minilogo.PNG" class="avatar" alt="Avatar Image">
-      <h1>Iniciar Sesion</h1>
-      <form>
-        <!-- USERNAME INPUT -->
-        <label for="Usuario">Usuario</label>
-        <input type="text" placeholder="Ingrese Usuario">
-        <!-- PASSWORD INPUT -->
-        <label for="Contraseña">Contraseña</label>
-        <input type="password" placeholder="Ingrese Contraseña">
-        <input type="submit" value="Iniciar Sesion">
-        <a href="#">¿olvidaste tu contraseña?</a><br>
-        <a href="#">¿no tienes cuenta?</a>
-      </form>
+                        <h1 class="title is-3">Iniciar Sesion</h1>
+                        <!-- usuario INPUT -->
+                        <label for="Usuario">Usuario</label>
+                        <input type="text" placeholder="Ingrese Usuario">
+                        <!-- contraseña -->
+                        <label for="Contraseña">Contraseña</label>
+                        <input type="password" placeholder="Ingrese Contraseña">
+                        <input type="submit" value="Iniciar Sesion">
+                        <a href="#">¿olvidaste tu contraseña?</a><br>
+                        <a href="#">¿no tienes cuenta?</a>
+                    </div>
+                </div>
+            </div>
+            <div class="column is-one-third-mobile"></div>
+        </div>
     </div>
   </body>
 </html>
