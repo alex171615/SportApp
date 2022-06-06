@@ -21,7 +21,7 @@ const contrasenia_alumno = document.getElementById('contrasenia')
 // funcion definida con 'funcion de flecha'
 button_agregar.addEventListener('click', () => {
     //para acceder al contenido del objeto (input) se debe colocar el atributo 'value'
-
+    
     // crea un objeto js Alumno
     const alumno = {
         nombre: nombre_alumno.value,
