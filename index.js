@@ -40,3 +40,4 @@ button_agregar.addEventListener('click', () => {
     console.table(alumno)
 })
 
+document.addEventListener()
