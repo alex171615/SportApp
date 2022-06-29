@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@1&display=swap');
+
+.registro-titulo {
+    font-family: 'Sorts Mill Goudy', serif !important;
+    font-weight: 700 !important;
+}
+
+.registro-datos {
+    font-family: 'Sorts Mill Goudy', serif !important;
+    /* font-weight: 600 !important; */
+    font-size: 1.1rem;
+}
+
+.registro-CrearCuenta {
+    font-family: 'Sorts Mill Goudy', serif !important;
+    font-size: 1.5rem;
+}
+
+.inicio-sesion{
+    font-family: 'Sorts Mill Goudy', serif !important;
+
+}
